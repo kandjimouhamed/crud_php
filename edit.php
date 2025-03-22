@@ -75,7 +75,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ajouter un produit</title>
+    <title>Modifier un produit</title>
     <!-- ######### CDN BOOTSTRAP ######## -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -113,6 +113,8 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
             </section>
         </div>
     </main>
+    <?php require_once('./toast.php'); ?>
+    <script src="./script.js"></script>
     
 </body>
 </html>

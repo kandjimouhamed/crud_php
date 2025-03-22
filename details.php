@@ -51,7 +51,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
         crossorigin="anonymous">
     </script>
-    <title>details du produit</title>
+    <title>Details du produit</title>
 </head>
 <body>
     <main class="container">
@@ -69,6 +69,8 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
             </section>
         </div>
     </main>
+    <?php require_once('./toast.php'); ?>
+    <script src="./script.js"></script>
     
 </body>
 </html>

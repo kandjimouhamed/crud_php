@@ -13,7 +13,7 @@ if ($_POST) {
         $produit = strip_tags($_POST['produit']);
         $prix = strip_tags($_POST['prix']);
         $nombre = strip_tags($_POST['nombre']);
-
+        // on declare la requette
         $sql = 'UPDATE  liste SET `produit`=:produit, `prix`=:prix, `nombre`=:nombre
                 WHERE `id`=:id';
 

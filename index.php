@@ -85,6 +85,11 @@ require_once('./close.php');
             </section>
         </div>
     </main>
+
+
+    <?php require_once('./toast.php'); ?>
+    <script src="./script.js"></script>
+    
     
 </body>
 </html>
