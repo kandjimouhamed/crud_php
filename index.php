@@ -50,7 +50,12 @@ require_once('./close.php');
                             $_SESSION['message'] = '';
                          }
                 ?>
-                <h1>Liste des produits</h1>
+                <div class="row mb-2">
+                    <h1 class="col-6">Liste des produits</h1>
+                    <div class="col-6 d-flex justify-content-end">
+                        <a href="add.php" class="col-6 btn btn-outline-success btn-lg">Ajouter un produit</a>
+                    </div>
+                </div>
                 <table class="table table-bordered">
                     <thead>
                         <th>ID</th>
@@ -81,7 +86,7 @@ require_once('./close.php');
                         ?>
                     </tbody>
                 </table>
-                <a href="add.php" class="btn btn-primary">Ajouter un produit</a>
+               
             </section>
         </div>
     </main>
